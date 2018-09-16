@@ -28,4 +28,3 @@ namespace ListViewпример
         }
     }
 }
-//так работает
