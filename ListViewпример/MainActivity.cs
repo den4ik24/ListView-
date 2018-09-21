@@ -20,6 +20,7 @@ namespace ListViewпример
            
             SetContentView(Resource.Layout.activity_main);
 
+
             result = FindViewById<ListView>(Resource.Id.result);
 
             ArrayAdapter<String> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, names);
